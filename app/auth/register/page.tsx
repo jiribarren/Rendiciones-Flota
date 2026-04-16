@@ -78,6 +78,7 @@ export default function RegisterPage() {
               type="text"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
               style={{ color: '#000000 !important', backgroundColor: '#ffffff !important' }}
               placeholder="Juan Perez"
               required
@@ -92,6 +93,7 @@ export default function RegisterPage() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
               style={{ color: '#000000 !important', backgroundColor: '#ffffff !important' }}
               placeholder="correo@ejemplo.com"
               required
@@ -106,6 +108,7 @@ export default function RegisterPage() {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
               style={{ color: '#000000 !important', backgroundColor: '#ffffff !important' }}
               placeholder="Mínimo 6 caracteres"
               minLength={6}
@@ -120,6 +123,7 @@ export default function RegisterPage() {
             <select
               value={role}
               onChange={(e) => setRole(e.target.value)}
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
               style={{ color: '#000000 !important', backgroundColor: '#ffffff !important' }}
             >
               <option value="conductor">Conductor</option>

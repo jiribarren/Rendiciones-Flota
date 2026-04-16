@@ -20,6 +20,6 @@ export default async function HomePage() {
   } else if (profile?.role === 'jefatura') {
     redirect('/jefatura')
   } else {
-    redirect('/dashboard')
+    redirect('/conductor/dashboard')
   }
 }
