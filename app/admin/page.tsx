@@ -8,6 +8,8 @@ import { Rendicion, ESTADO_LABELS, EstadoRendicion } from '@/types'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
 import { LogOut, FileText, CheckCircle, XCircle, DollarSign, Download } from 'lucide-react'
 
+export const dynamic = 'force-dynamic'
+
 const COLORS = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#EC4899']
 
 export default function DashboardAdmin() {
